@@ -1,0 +1,264 @@
+
+.article__container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem;
+
+}
+.hidden{
+    display: none;
+}
+
+@keyframes move{
+    0%{
+            
+            transform: translateY(15px);
+            opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/* main__section */
+header{
+    background-color: #171616;
+}
+
+
+/* about */
+.about{
+    background-image: url(./imgs/1920x1300.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding: 5rem 0;
+}
+.about h1{
+font-size: 4.5rem;
+font-weight: 500;
+color: #fff;
+}
+.about p{
+    padding: 2rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* who__am__i */
+.who__am__i{
+    padding: 4rem;
+}
+.who__am__card,.how__start__card{
+    width: 50%;
+    float: left;
+    padding: 4rem ;
+
+}
+.how__start__card{
+    padding: 5rem;
+}
+.who__am__card__left ,.how__start__card__left{
+    padding-left: 0;
+}
+
+.who__am__card h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+}
+.who__am__card p,.how__start__card p{
+    font-size: 1.6rem;
+    color: #999;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.who__am__card span,.how__start__card span{
+    display: inline-block;
+    height: .07rem;
+    background-color: #383838;
+    margin: 2rem 0;
+    width: 5%;
+}
+.How__did__I__start{
+    background-color: #1d1d1d;
+    padding: 3rem 0;
+    
+}
+
+.how__start__card h2{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+.how__start__card p{
+   
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.about__icons{
+    padding: 6rem 0;
+    background-color: #161616;
+}
+.icon__card{
+    width: calc((100% - 90px)/4);
+    text-align: center;
+    float: left;
+}
+.icon__card:not(:last-child){
+    margin-right: 30px;
+}
+.icons{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #333333;
+    text-align: center;
+   margin: 0 auto;
+    
+}
+.icons span{
+    font-size:3.5rem;
+    line-height: 70px;
+    color: #fff;
+    margin-top: .5rem;
+}
+.icon__title{
+    font-size: 1.7rem;
+    margin: 1.5rem 0;
+    color: #fff;
+}
+.icon__description{
+    color: #888;
+    font-size: 1.4rem;
+}
+.our__goal{
+    background-color: #1d1d1d;
+    padding: 4rem 0;
+}
+.our__goal__header{
+    width: 40%;
+    margin: 3rem auto;
+    text-align: center;
+   
+}
+.our__goal__header a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #888;
+    padding: 1.2rem 1.7rem;
+    background-color: rgba(0,0,0,0.12);
+}
+.our__goal__header a:not(:last-child){
+   margin-right: 1rem;
+}
+.active-tab{
+    background-color: #333333 !important;
+    color: #fff !important; ;
+}
+
+.our__goal__card{
+    width: 50%;
+    float: left;
+    color: #999;
+    padding: 5rem;
+    font-size: 1.4rem;
+    line-height: 1.9;
+    
+}
+
+
+
+@media screen and (max-width: 1200px){
+
+    .who__am__i{
+        padding: 4rem 2rem;
+    }
+    .who__am__card,.how__start__card{
+        padding: 2rem ;
+    }
+    .how__start__card h2{
+        font-weight: 400;
+        padding-top: 1rem;
+        margin-top: 1rem;
+    }
+    .who__am__card p,.how__start__card p{
+        margin-bottom: .8rem;
+    }
+    .who__am__card span,.how__start__card span{
+        margin: 0;
+    
+    }
+    .our__goal__card{
+      
+        padding:3rem 2rem;
+      
+        
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .who__am__i{
+        padding: 4rem 1rem;
+    }
+    .who__am__card,.how__start__card{
+        padding: 1rem ;
+    }
+    .who__am__card p,.how__start__card p{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+  
+    .who__am__card img,.how__start__card img{
+        margin-top: 3rem;
+    }
+    .our__goal .container{
+        width: 95%;
+    }
+    .our__goal__header{
+        width: 60%;
+    }
+    .our__goal__card{
+        padding:2rem 1rem; 
+    }
+ 
+
+
+}
+
+
+@media screen and (max-width: 768px){
+  
+    .who__am__card,.how__start__card{
+        width: 100%;
+    }
+    .our__goal__header{
+        width: 80%;
+    }
+    .our__goal__card {
+        width: 100%;
+    }
+    .icon__card{
+        width: calc((100% - 30px)/2);
+    }
+    .icon__card{
+        margin-right: 0 !important;
+    }
+    .icon__card:nth-child(1), .icon__card:nth-child(3){
+        margin-right: 30px !important;
+
+    }
+    
+
+
+}
+
+
+
+
+
+

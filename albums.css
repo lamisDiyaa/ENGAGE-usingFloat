@@ -1,0 +1,19 @@
+
+
+/* albums */
+.albums{
+    background-color: #101010;
+    text-align: center;
+    padding: 5rem 0;
+}
+.albums h1{
+font-size: 4.5rem;
+font-weight: 500;
+color: #fff;
+}
+.albums p{
+    padding: 2rem;
+    font-size: 2rem;
+    color: #999;
+}
+

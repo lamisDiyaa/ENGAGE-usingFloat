@@ -1,0 +1,167 @@
+
+/* main__section */
+header{
+    padding: 1rem 0;
+    position: sticky;
+    width: 100%;
+    background-color: #202020;
+    top: 0;
+}
+
+.blog{
+    padding: 4rem 0;
+    background-color: #161616;
+}
+.blog__h1{
+    width: 50%;
+    float: left;
+    font-size: 3.4rem;
+    padding: 4.5rem 0;
+}
+.blog__p{
+    width: 50%;
+    float: left;
+    text-align: end;
+    font-size: 1.6rem;
+  color: #666;
+  padding: 4.5rem 0;
+    padding-right: 5rem;
+}
+.blog__p span{
+    color: #999;
+}
+/* main__section */
+
+.main__section-blog{
+    padding: 3rem 0;
+}
+
+.main__blog{
+    width: 70%;
+    float: left;
+}
+.blog__card{
+    margin-bottom: 3rem;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+}
+.blog__card__txt{
+    padding: 3rem;
+    background-color: #232323;
+}
+.blog__title p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+}
+.blog__mini__title p{
+    color: #777;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.blog__description p{
+    color: #999;
+    font-size: 1.5rem;
+}
+.read__more{
+    margin-top: 2rem;
+}
+.read__more a{
+    text-decoration: none;
+    color: #c2bfbf;
+    font-size: 1.5rem;
+}
+.read__more span{
+    vertical-align: middle;
+    font-size: 1.3rem;
+}
+.card__header{
+    background-color: #333333;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.card__header__txt{
+    margin-top: 2rem;
+    position: relative;
+}
+.card__header__txt p{
+    width: 70%;
+    float: left;
+}
+.card__header__txt div{
+    width: 25%;
+    float: left;
+    text-align: end;
+    padding-right: 2rem;
+    color: #999;
+    font-size: 3rem;
+}
+.Quote__p{
+    font-size: 1.8rem;
+}
+.fa-quote-left{
+position: absolute;
+right: 0;
+}
+
+/* sidebar */
+.sidebar{
+    padding-left: 4rem;
+}
+.input__container{
+    border-bottom: 1px solid #777;
+}
+.input__container input{
+    width: 100%;
+    margin-bottom: 4rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin-right: -3.2rem;
+}
+.input__container span{
+    vertical-align: middle;
+}
+.input__container input::placeholder{
+   font-size: 1.6rem;
+}
+.sidebar__card:not(:last-child){
+    border-bottom: 1px solid #777;
+    padding-bottom: 3rem;
+}
+.sidebar__card h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 3rem 0;
+    margin-top: 3rem;
+}
+
+.sidebar__card li{
+    font-size: 1.5rem;
+    color: #777;
+    margin-bottom: 2.6rem;
+}
+
+
+.sidebar__card span{
+    font-size: 1rem;
+    vertical-align: middle;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .main__blog{
+        width: 100%;
+    }
+    
+    .sidebar{
+      width: 100%;
+      padding-left: 0;
+    }
+    
+  }
+
+

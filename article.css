@@ -1,0 +1,318 @@
+
+.article__container{
+    width: 65%;
+    margin: 0 auto;
+    padding: 4rem;
+
+}
+
+
+
+/* simple__post */
+.simple__post{
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #0c0c0c
+}
+.simple__post h1{
+    font-size: 4.5rem;
+font-weight: 500;
+color: #fff;
+}
+.simple__post p{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+}
+.simple__post span:nth-child(even){
+    color: #999;
+}
+.simple__post span:nth-child(odd){
+    color: #434141;
+}
+
+/* main__section */
+
+.regular__txt{
+    line-height: 2;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+.quote p{
+    margin-left: 3rem;
+    border-left: 2px solid #999;
+    padding-left: 2.5rem;
+    font-size: 1.6rem;
+    position: relative;
+    line-height: 2.3;
+}
+.quote p::first-letter{
+    content: " ";
+    padding-left: 2.5rem;
+}
+.quote .fa-quote-left{
+    position: absolute;
+    left: 3rem;
+    top: 0;
+    font-size: 2rem;
+}
+.quote .fa-quote-right{
+    position: absolute;
+ 
+    font-size: 2rem;
+
+}
+.white__txt{
+    color: #fff;
+}
+.comment__card{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    border-top: 1px solid #333;
+    line-height: 1.6;
+}
+.philip img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.comment__img{
+    float: left;
+    width: 15%;
+    margin-right: 3%;
+   
+}
+.comment__txt{
+    float: left;
+    width: 80%;
+}
+.comment__txt h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.next__post{ 
+    width: 96%;
+    float: left;
+    text-align: end;
+    color: #fff;
+    padding: 2rem 0;
+}
+.next__post__firstP{
+    font-size: 1.3rem;
+   line-height: .9;
+   color: #999;
+}
+.next__arrow{
+    width: 4%;
+    float: left;
+    color: #fff;
+    text-align: end;
+   
+    padding: 2rem 0;
+    padding-top: 2.5rem;
+}
+.one__comment{
+    color: #fff;
+    text-align: start;
+    font-size: 2rem;
+}
+.one__comment__img{
+    width: 10%;
+    float: left;
+   
+}
+.one__comment__img img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+   
+}
+.one__comment__description{
+    width: 70%;
+    float: left;
+}
+.one__comment__description p{
+    color: #999;
+}
+.one__comment__description .comment__date{
+    color: #555;
+}
+.one__comment__description span{
+    color: #fff;
+}
+.form__view{
+    background-color: transparent;
+    border: 1.5px solid #999;
+
+}
+.form__view::placeholder{
+    color: #999;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-transform: capitalize;
+
+}
+.form textarea{
+    width: 100%;
+    
+    height: 30rem;
+}
+
+.inputs{
+    width: calc((100% - 20px)/2);
+    float: left;
+    padding: 1.8rem;
+    margin-top: 2rem;
+
+}
+.inputs:first-child{
+    margin-right: 20px;
+}
+.post__btn button{
+    background-color: #333333;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1.6rem 1.8rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+/* footer */
+footer{
+    padding: 6rem 0;
+    background-color: #101010;
+}
+.footer__logo{
+    text-align: center;
+}
+.footer__logo img{
+    width: 12%;
+}
+.footer__logo p{
+    color: #666;
+    font-size: 1.3rem;
+    margin: 3rem 0;
+}
+.footer__icons{
+    /* width: 10%;
+    margin: 0 auto; */
+    text-align: center;
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+display: inline-block;
+    background-color: #383838;
+    text-align: center;
+    transition: all 1s;
+    
+}
+.icon:not(:last-child){
+    margin-right: 2rem;
+}
+.icon i{
+    color: #1D1D1D;
+    font-size: 2.4rem;
+    line-height: 1.8;
+    transition: all 1s;
+}
+.facebook:hover{
+    background-color: #3B5998;
+  
+}
+.facebook:hover i{
+   
+    color: #fff;
+}
+.google:hover{
+    background-color: #DD4B53;
+  
+}
+.google:hover i{
+   
+    color: #fff;
+}
+.linkedin:hover{
+    background-color: #007BB5;
+  
+}
+.linkedin:hover i{
+   
+    color: #fff;
+}
+.twitter:hover{
+    background-color: #00ACED;
+  
+}
+.twitter:hover i{
+   
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .article__container{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .article__container{
+        width: 90%;
+    }
+    .comment__txt{
+        float: left;
+        width: 80%; 
+    }
+    .one__comment__img{
+       margin-right: 5%;
+       
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .article__container{
+        width: 100%;
+        padding: 1rem;
+    }
+   
+    .philip img{
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+    }
+
+    .comment__txt h2{
+  
+        font-size: 1.8rem;
+    }
+    .comment__card{
+        font-size: 1.3rem;
+    }
+    .next__post{ 
+        width: 96%;
+        float: left;
+        text-align: end;
+        color: #fff;
+        padding: 2rem 0;
+        
+    }
+    .next__post__firstP{
+        font-size: 1.3rem;
+       line-height: .9;
+       color: #999;
+    }
+   
+  
+
+
+}
