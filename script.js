@@ -2,7 +2,6 @@ let menu=document.querySelector(".menu button")
 let navBar=document.querySelector(".toggle")
 let content=document.querySelector(".hidden-content")
 let tabs=document.querySelectorAll(".goal-tab")
-
 let nature=document.getElementById("nature")
 let photography=document.getElementById("photography")
 let albumTabs=document.querySelectorAll(".Albums-tab")
@@ -14,9 +13,6 @@ let articleImage=document.querySelector(".article__container img")
 
 // to make sure that i have src for the image
 let imageee= JSON.parse(localStorage.getItem('img'))??"./imgs/romain-lours-133986-600x.jpg" 
-
-
-
 
 if(articleImage){
     articleImage.src=imageee
